@@ -54,14 +54,14 @@ const Home = () => {
                   marginLeft: "40px",
                 }}
               >
-                <div style={{maxWidth: "250px", minHeight: "200px"}}>
+                <div style={{maxWidth: "250px", minHeight: "200px", marginTop: "5px"}}>
                   <h3>Fullname : {item.name}</h3>
                   <h3>Email : {item.email}</h3>
                   <h3>Phone-Number : {item.phone}</h3>  
                   <h3>Website : {item.website}</h3>
                   <button
                     style={{
-                      margin: "6px",
+                      marginTop: "30px",
                       padding: "6px",
                       background: "#551a8b",
                       color: "white",
